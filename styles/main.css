@@ -1,0 +1,23 @@
+.principal-movie {
+    height: 400px;
+    background-image:
+        linear-gradient(rgba(0,0,0,.40), rgba(0,0,0,.40)),
+        url(../img/carusel-main/promo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 14px 12px -8px rgba(0,0,0,0.97);
+    -moz-box-shadow: 0px 14px 12px -8px rgba(0,0,0,0.97);
+    box-shadow: 0px 14px 12px -8px rgba(0,0,0,0.97);
+    margin-bottom: 30px;
+}
+
+.principal-movie > .container-movie {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.principal-movie > .container-movie img {
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+header {
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+header > .navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .navbar-container > .logo {
+    height: 50px;
+}
+
+header > .navbar-container > nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+header > .navbar-container > nav > a {
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+header > .navbar-container > nav > a:hover {
+    color: rgb(88, 83, 83);
+}
+
+header > .navbar-container > nav > a > i {
+    margin-right: 5px;
+}
+
+header > .navbar-container > .logo img{
+    height: 100%;
+}
+
+header > .navbar-container > .user-picture {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/profile.jpg);
+    background-size: cover;
+    border-radius: 50%
+}

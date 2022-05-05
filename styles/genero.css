@@ -1,0 +1,33 @@
+.genero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0% 3%;
+    margin-bottom: 40px;
+}
+
+.genero-content > .box-marca {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(66, 61, 61, 0.795);
+    border: 2px solid gray;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 14px 12px -8px rgba(0,0,0,0.97);
+    -moz-box-shadow: 0px 14px 12px -8px rgba(0,0,0,0.97);
+    box-shadow: 0px 14px 12px -8px rgba(0,0,0,0.97);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.genero-content > .box-marca:hover {
+    background-color:  rgb(51, 50, 50);
+    border: 2px solid rgb(20, 20, 20);
+}
+
+.genero-content > .box-marca img {
+    width: 60%;
+}

@@ -1,0 +1,109 @@
+@media screen and (max-width:830px) {
+    header > .navbar-container {
+        display: flex;
+        flex-direction: column;
+    }
+    header > .navbar-container > nav {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .user-picture {
+        display: none;
+    }
+/* 
+    .genero-content {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .genero-content > .box-marca {
+        width: 300px;
+        height: 150px;
+        margin-bottom: 20px;
+    } */
+}
+
+@media screen and (max-width:720px) {
+    header > .navbar-container > nav {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 3%;
+        border-top: 2px solid rgb(39, 39, 39);
+        box-shadow: 0px -13px 18px -3px rgba(0,0,0,0.84);
+        -webkit-box-shadow: 0px -13px 18px -3px rgba(0,0,0,0.84);
+        -moz-box-shadow: 0px -13px 18px -3px rgba(0,0,0,0.84);
+        position: fixed;
+        bottom: 0;
+    }
+    
+    footer > .links > .user-picture-2 {
+        height: 40px;
+        width: 40px;
+        background-image: url(/img/profile.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    
+    footer > .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    footer > .links > a {
+        font-size: 1.4rem;
+        color: white;
+        transition: .3s;
+    }
+
+    footer > .links > a:hover {
+        color: rgb(53, 47, 47);
+    }
+}
+
+@media screen and (max-width:630px) {
+    header > .navbar-container > nav {
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:580px) {
+    header > .navbar-container > nav > a i{
+        display: none;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .navbar-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-container > .logo{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-container > .logo img {
+        height: 100%;
+    }
+
+    header > .navbar-container > nav {
+        display: none;
+    }
+}

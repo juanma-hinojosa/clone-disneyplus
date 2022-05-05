@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+body > i {
+    font-size: 4em;
+    color: grey;
+    padding-bottom: 20px;
+}
+
+body> h2 {
+    color: beige;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+}
+
+body > p {
+    width: 60%;
+    color: gray;
+    font-size: .9em;
+    letter-spacing: .5px;
+}
